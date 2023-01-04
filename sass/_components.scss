@@ -22,6 +22,60 @@ h4 {
 	font-size: 3.6rem;
 	line-height: 3.6rem;
 }
+button {
+	position: relative;
+	padding: 1em 1.5em;
+	font-family: 'Big Shoulders Display', cursive;
+	font-weight: 800;
+	font-size: 2rem;
+	line-height: 2.4rem;
+	letter-spacing: 0.4rem;
+	text-transform: uppercase;
+	color: $white;
+	border: none;
+	cursor: pointer;
+	&::after {
+		position: absolute;
+		top: 0;
+		width: 50px;
+		height: 100%;
+		background-image: url('../img/icon-arrow-right.svg');
+		background-repeat: no-repeat;
+		background-position: 50%, 50%;
+	}
+}
+.primary {
+	margin-right: 50px;
+	background-color: $black;
+	&:hover {
+		background-color: $primary;
+	}
+	&::after {
+		left: 100%;
+		background-color: $primary;
+		background-image: url('../img/icon-arrow-right.svg');
+		content: '';
+	}
+	&:hover::after {
+		background-color: $black;
+	}
+}
+.secondary {
+	margin-left: 50px;
+	background-color: $primary;
+	&:hover {
+		background-color: $black;
+	}
+	&::after {
+		right: 100%;
+		background-color: $black;
+		background-image: url('../img/icon-arrow-left.svg');
+		content: '';
+	}
+	&:hover::after {
+		background-color: $primary;
+	}
+}
 footer p {
 	font-size: 1.8rem;
 	line-height: 2.8rem;

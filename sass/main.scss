@@ -3,7 +3,8 @@
 
 body {
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	align-items: center;
 	font-family: 'Outfit', sans-serif;
 	font-size: 2.2rem;
 	font-weight: 300;
