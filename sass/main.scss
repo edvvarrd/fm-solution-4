@@ -10,16 +10,26 @@ body {
 	background-color: $white;
 }
 .top {
+	display: grid;
+	justify-items: center;
 	&__hero {
 		width: 100%;
-		height: auto;
+	}
+	&__content {
+		max-width: 40rem;
 	}
 	&__title {
 		margin: 0.5em 0;
 		white-space: pre-line;
 	}
+	&__description {
+		max-width: 35rem;
+	}
 	&__action {
 		margin: 2em 0;
+	}
+	&__black {
+		display: none;
 	}
 }
 @import 'components';
