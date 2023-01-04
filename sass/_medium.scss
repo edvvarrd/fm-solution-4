@@ -3,19 +3,4 @@
 		font-size: 7rem;
 		line-height: 7rem;
 	}
-	.top {
-		grid-template-columns: 1fr 1fr;
-		align-items: center;
-		justify-items: stretch;
-		&__hero {
-			display: block;
-			grid-column: 1/2;
-			width: 115%;
-			height: 100vh;
-			object-fit: cover;
-		}
-		&__content {
-			grid-column: 2/3;
-		}
-	}
 }
