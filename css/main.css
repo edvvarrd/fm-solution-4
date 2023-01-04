@@ -16,7 +16,6 @@ body {
   line-height: 2.8rem;
   font-weight: 300;
   color: #151515;
-  min-height: 100vh;
   background-color: #f2f2f2;
 }
 
@@ -25,8 +24,6 @@ body {
   height: auto;
 }
 .top__title {
-  display: flex;
-  align-self: left;
   margin: 0.5em 0;
   white-space: pre-line;
 }
@@ -36,9 +33,12 @@ body {
 
 .wrapper {
   margin: 0 auto;
-  padding: 0 1em;
   width: 100%;
   max-width: 1400px;
+}
+
+.container {
+  padding: 0 1em;
 }
 
 h1,
@@ -112,10 +112,28 @@ h2 {
   background-color: #d5966c;
 }
 
-@media (min-width: 756px) {
+@media (min-width: 768px) {
   h1 {
     font-size: 7rem;
     line-height: 7rem;
+  }
+  .top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    max-height: 500px;
+  }
+  .top__hero {
+    display: block;
+    grid-column: 1/2;
+    width: 115%;
+    height: 100vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .top__content {
+    grid-column: 2/3;
+    width: 40rem;
   }
 }
 @media (min-width: 992px) {

@@ -19,9 +19,12 @@
 </head>
 
 <body>
-  <header class="top">
-    <img src="./img/mobile/image-hero.jpg" alt="Man and woman looking at gallery piece" class="top__hero">
-    <div class="wrapper">
+  <header class="top wrapper">
+    <picture>
+      <source media="(min-width: 768px)" srcset="./img/tablet/image-hero@2x.jpg">
+      <img src="./img/mobile/image-hero@2x.jpg" alt="Man and woman looking at gallery piece" class="top__hero">
+    </picture>
+    <div class="top__content container">
       <h1 class="top__title">Modern
         Art Gallery</h1>
       <p class="top__description">The arts in the collection of the Modern Art Gallery all started
@@ -30,14 +33,7 @@
       <a href="./location.html" class="top__action action action-primary">Our location</a>
     </div>
   </header>
-  <!-- <h1>Modern Art Gallery</h1>
-
-  The arts in the collection of the Modern Art Gallery all started
-  from a spark of inspiration. Will these pieces inspire you? Visit
-  us and find out.
-
-  <a href="location.html" class="action action-primary">Our location</a>
-  <a href="location.html" class="action action-secondary">Our location</a>
+  <!--
 
   <h2>Your day at the gallery</h2>
 

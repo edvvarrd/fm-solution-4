@@ -1,6 +1,23 @@
-@media (min-width: 756px) {
+@media (min-width: 768px) {
 	h1 {
 		font-size: 7rem;
 		line-height: 7rem;
+	}
+	.top {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		align-items: center;
+		max-height: 500px;
+		&__hero {
+			display: block;
+			grid-column: 1/2;
+			width: 115%;
+			height: 100vh;
+			object-fit: cover;
+		}
+		&__content {
+			grid-column: 2/3;
+			width: 40rem;
+		}
 	}
 }
