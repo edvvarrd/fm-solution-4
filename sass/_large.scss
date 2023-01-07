@@ -18,36 +18,39 @@
 		max-width: 1200px;
 	}
 	h1 {
-		font-size: 8.4rem;
-		line-height: 7.6rem;
+		font-size: 9.6rem;
+		line-height: 8.8rem;
 	}
 	.top {
 		height: 80rem;
 		&__hero {
 			left: 50%;
 			transform: translateX(-50%);
+			width: 50%;
+			object-fit: cover;
 		}
 		&__title {
 			position: absolute;
-			left: 1em;
+			left: 0;
 			mix-blend-mode: difference;
 			color: $white;
 		}
 		&__text {
-			max-width: 37rem;
+			max-width: 36rem;
 			margin-bottom: 3.5em;
 		}
 		&__black {
+			margin: 0 1em;
 			width: 50%;
 			height: 100%;
 			position: absolute;
-			left: -5%;
+			left: -15%;
 			top: 0;
 			background-color: $black;
 			z-index: -10;
 		}
 		.container {
-			margin-bottom: 5em;
+			margin-bottom: 6em;
 		}
 	}
 }
