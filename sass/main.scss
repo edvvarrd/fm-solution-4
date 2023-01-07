@@ -19,7 +19,6 @@ body {
 	align-items: center;
 	&__hero {
 		width: 100%;
-		object-fit: contain;
 	}
 	&__title {
 		white-space: pre-line;
@@ -33,6 +32,8 @@ body {
 		margin: 1em 0;
 	}
 }
+// MAIN
+
 @import 'components';
 @import 'medium';
 @import 'large';

@@ -7,6 +7,11 @@
 		font-size: 7rem;
 		line-height: 7rem;
 	}
+	.top {
+		&__text {
+			max-width: 36rem;
+		}
+	}
 }
 @media (min-width: 1200px) {
 	.wrapper {
@@ -30,18 +35,19 @@
 		}
 		&__text {
 			max-width: 37rem;
+			margin-bottom: 3.5em;
 		}
 		&__black {
 			width: 50%;
 			height: 100%;
 			position: absolute;
-			left: 0;
+			left: -5%;
 			top: 0;
 			background-color: $black;
 			z-index: -10;
 		}
 		.container {
-			margin-bottom: 3em;
+			margin-bottom: 5em;
 		}
 	}
 }
