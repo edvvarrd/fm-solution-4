@@ -16,16 +16,13 @@ body {
 .top {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 	&__hero {
 		width: 100%;
 	}
 	&__title {
-		white-space: pre-line;
 		margin: 0.5em 0;
 	}
 	&__text {
-		max-width: 35rem;
 		margin: 1em 0;
 	}
 	&__action {
@@ -33,7 +30,27 @@ body {
 	}
 }
 // MAIN
-
+main {
+	margin: 3em 0;
+}
+.grid {
+	display: grid;
+	gap: 0.5em;
+	img {
+		width: 100%;
+	}
+	&__block {
+		h2 {
+			margin: 0.5em 0;
+		}
+		&-black {
+			padding: 2em 1em;
+			margin-top: 0.5em;
+			background-color: $black;
+			color: $white;
+		}
+	}
+}
 @import 'components';
 @import 'medium';
 @import 'large';

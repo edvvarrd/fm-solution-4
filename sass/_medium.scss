@@ -11,6 +11,9 @@
 			height: 100%;
 			z-index: -5;
 		}
+		&__text {
+			max-width: 36rem;
+		}
 		.container {
 			align-self: flex-end;
 		}
