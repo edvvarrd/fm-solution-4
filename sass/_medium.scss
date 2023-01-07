@@ -1,6 +1,18 @@
 @media (min-width: 768px) {
-	h1 {
-		font-size: 7rem;
-		line-height: 7rem;
+	.top {
+		position: relative;
+		height: 70rem;
+		justify-content: center;
+		&__hero {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: auto;
+			height: 100%;
+			z-index: -5;
+		}
+		.container {
+			align-self: flex-end;
+		}
 	}
 }
