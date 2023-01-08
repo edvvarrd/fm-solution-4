@@ -45,7 +45,7 @@ main {
 
 .grid {
   display: grid;
-  gap: 0.5em;
+  gap: 1em;
 }
 .grid img {
   width: 100%;
@@ -54,16 +54,46 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0.5em 1em;
 }
 .grid__block h2 {
   margin: 0.5em 0;
 }
 .grid__block-black {
-  margin-top: 0.5em;
   padding: 1.5em 1em;
   background-color: #151515;
   color: #ffffff;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 1.5em 0;
+  background-color: #151515;
+  color: #ffffff;
+}
+.bottom .flex {
+  display: flex;
+  flex-direction: column;
+}
+.bottom .flex h4 {
+  margin: 1em 0;
+}
+.bottom .flex p {
+  margin: 1em 0;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+}
+.bottom .flex .social {
+  display: flex;
+  flex-direction: row;
+  margin: 1em 0;
+}
+.bottom .flex .social a {
+  margin: 0 0.5em;
+}
+.bottom .flex .social a:first-child {
+  margin-left: 0;
 }
 
 .wrapper {
@@ -76,7 +106,8 @@ main {
 }
 
 h1,
-h2 {
+h2,
+h4 {
   font-family: "Big Shoulders Display", cursive;
   font-weight: 900;
   letter-spacing: 0.2rem;
@@ -92,6 +123,10 @@ h1 {
 h2 {
   font-size: 5rem;
   line-height: 5rem;
+}
+
+h4 {
+  font-size: 3rem;
 }
 
 .action {

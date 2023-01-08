@@ -35,7 +35,7 @@ main {
 }
 .grid {
 	display: grid;
-	gap: 0.5em;
+	gap: 1em;
 	img {
 		width: 100%;
 	}
@@ -43,15 +43,44 @@ main {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		padding: 0.5em 1em;
 		h2 {
 			margin: 0.5em 0;
 		}
 		&-black {
-			margin-top: 0.5em;
 			padding: 1.5em 1em;
 			background-color: $black;
 			color: $white;
+		}
+	}
+}
+.bottom {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding: 1.5em 0;
+	background-color: $black;
+	color: $white;
+	.flex {
+		display: flex;
+		flex-direction: column;
+		h4 {
+			margin: 1em 0;
+		}
+		p {
+			margin: 1em 0;
+			font-size: 1.6rem;
+			line-height: 2.6rem;
+		}
+		.social {
+			display: flex;
+			flex-direction: row;
+			margin: 1em 0;
+			a {
+				margin: 0 0.5em;
+				&:first-child {
+					margin-left: 0;
+				}
+			}
 		}
 	}
 }
