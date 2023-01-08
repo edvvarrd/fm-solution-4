@@ -51,4 +51,13 @@
 			grid-row: 2/3;
 		}
 	}
+	.bottom {
+		.flex {
+			flex-direction: row;
+			justify-content: space-between;
+			p {
+				max-width: 30rem;
+			}
+		}
+	}
 }

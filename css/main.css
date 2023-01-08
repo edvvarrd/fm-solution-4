@@ -234,6 +234,13 @@ h4 {
     grid-column: 3/4;
     grid-row: 2/3;
   }
+  .bottom .flex {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .bottom .flex p {
+    max-width: 30rem;
+  }
 }
 @media (min-width: 992px) {
   body {
@@ -299,5 +306,12 @@ h4 {
   }
   .grid__block-black {
     padding: 1em 2em;
+  }
+  .bottom .flex {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .bottom .flex p {
+    max-width: 40rem;
   }
 }/*# sourceMappingURL=main.css.map */
