@@ -54,14 +54,13 @@
 		}
 	}
 	.grid {
-		height: 115rem;
+		max-height: 115rem;
 		grid-template-columns: 1fr 0.5fr 1fr;
 		grid-template-rows: 1fr 0.85fr 1.15fr;
 		gap: 1.5em;
 		&__block {
-			padding: 0.5em 1em;
 			&-white {
-				margin-right: 1.5em;
+				padding: 0.5em 1em;
 			}
 			&-black {
 				padding: 1em 2em;
