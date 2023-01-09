@@ -53,6 +53,7 @@ main {
 		}
 	}
 }
+// FOOTER
 .bottom {
 	display: flex;
 	justify-content: center;
@@ -82,6 +83,30 @@ main {
 				}
 			}
 		}
+	}
+}
+// LOCATION
+.location {
+	width: 100%;
+	position: relative;
+	margin: 0;
+	#map {
+		height: 55rem;
+		z-index: -5;
+		.leaflet-tile-pane {
+			filter: grayscale(100%);
+		}
+	}
+	.wrapper {
+		margin: 0 auto;
+	}
+	&__back {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	&__action {
+		margin-left: 50px;
 	}
 }
 @import 'components';

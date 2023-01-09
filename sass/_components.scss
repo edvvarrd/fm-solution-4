@@ -1,4 +1,5 @@
 .wrapper {
+	position: relative;
 	width: 100%;
 	max-width: 768px;
 }
@@ -64,17 +65,17 @@ h4 {
 		}
 	}
 	&-secondary {
-		background-color: $primary;
+		background-color: $black;
 		&:hover {
-			background-color: $black;
+			background-color: $primary;
 		}
 		&::after {
 			right: 100%;
-			background-color: $black;
+			background-color: $primary;
 			background-image: url('../img/icon-arrow-left.svg');
 		}
 		&:hover::after {
-			background-color: $primary;
+			background-color: $black;
 		}
 	}
 }

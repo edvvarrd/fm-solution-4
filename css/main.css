@@ -96,7 +96,32 @@ main {
   margin-left: 0;
 }
 
+.location {
+  width: 100%;
+  position: relative;
+  margin: 0;
+}
+.location #map {
+  height: 55rem;
+  z-index: -5;
+}
+.location #map .leaflet-tile-pane {
+  filter: grayscale(100%);
+}
+.location .wrapper {
+  margin: 0 auto;
+}
+.location__back {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.location__action {
+  margin-left: 50px;
+}
+
 .wrapper {
+  position: relative;
   width: 100%;
   max-width: 768px;
 }
@@ -168,18 +193,18 @@ h4 {
   background-color: #151515;
 }
 .action-secondary {
-  background-color: #d5966c;
+  background-color: #151515;
 }
 .action-secondary:hover {
-  background-color: #151515;
+  background-color: #d5966c;
 }
 .action-secondary::after {
   right: 100%;
-  background-color: #151515;
+  background-color: #d5966c;
   background-image: url("../img/icon-arrow-left.svg");
 }
 .action-secondary:hover::after {
-  background-color: #d5966c;
+  background-color: #151515;
 }
 
 @media (min-width: 768px) {
