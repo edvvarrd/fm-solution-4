@@ -103,7 +103,6 @@ main {
 }
 .location #map {
   height: 55rem;
-  z-index: -5;
 }
 .location #map .leaflet-tile-pane {
   filter: grayscale(100%);
@@ -115,6 +114,7 @@ main {
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 401;
 }
 .location__action {
   margin-left: 50px;
