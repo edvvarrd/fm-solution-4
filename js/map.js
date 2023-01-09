@@ -8,7 +8,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 	attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
 }).addTo(map)
 var myIcon = L.icon({
-	iconUrl: '../img/icon-location.svg',
+	iconUrl: './img/icon-location.svg',
 	iconSize: [66, 88],
 	iconAnchor: [33, 88],
 })
