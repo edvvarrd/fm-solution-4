@@ -13,5 +13,3 @@ var myIcon = L.icon({
 	iconAnchor: [33, 88],
 })
 var marker = L.marker([41.48134126987655, -71.3103655846963], { icon: myIcon }).addTo(map)
-
-L.marker([50.505, 30.57], { icon: myIcon }).addTo(map)
