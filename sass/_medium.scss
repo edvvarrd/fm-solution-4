@@ -60,4 +60,23 @@
 			}
 		}
 	}
+	.location {
+		&__address {
+			padding: 4em 0;
+			.flex {
+				flex-direction: row;
+				justify-content: space-between;
+			}
+			h2 {
+				white-space: pre-line;
+			}
+			p {
+				max-width: 40rem;
+			}
+			&-right {
+				align-self: flex-end;
+				width: 40rem;
+			}
+		}
+	}
 }

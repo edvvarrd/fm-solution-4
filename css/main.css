@@ -72,28 +72,31 @@ main {
   background-color: #151515;
   color: #ffffff;
 }
-.bottom .flex {
-  display: flex;
-  flex-direction: column;
-}
-.bottom .flex h4 {
+.bottom h4 {
   margin: 1em 0;
 }
-.bottom .flex p {
+.bottom p {
   margin: 1em 0;
   font-size: 1.6rem;
   line-height: 2.6rem;
 }
-.bottom .flex .social {
+.bottom .social {
   display: flex;
   flex-direction: row;
   margin: 1em 0;
 }
-.bottom .flex .social a {
+.bottom .social a {
   margin: 0 0.5em;
 }
-.bottom .flex .social a:first-child {
+.bottom .social a:first-child {
   margin-left: 0;
+}
+.bottom-location {
+  background-color: #d5966c;
+  color: #151515;
+}
+.bottom-location img {
+  fill: #151515;
 }
 
 .location {
@@ -118,6 +121,26 @@ main {
 }
 .location__action {
   margin-left: 50px;
+}
+.location__address {
+  padding: 1em 0;
+  background-color: #151515;
+  color: #ffffff;
+}
+.location__address h2 {
+  margin: 0.5em 0;
+  white-space: normal;
+}
+.location__address h4 {
+  margin: 1em 0;
+  color: #d5966c;
+}
+.location__address p {
+  margin: 1em 0;
+  max-width: 36rem;
+}
+.location__address-street {
+  white-space: pre-line;
 }
 
 .wrapper {
@@ -207,6 +230,11 @@ h4 {
   background-color: #151515;
 }
 
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
 @media (min-width: 768px) {
   .top {
     position: relative;
@@ -265,6 +293,23 @@ h4 {
   }
   .bottom .flex p {
     max-width: 30rem;
+  }
+  .location__address {
+    padding: 4em 0;
+  }
+  .location__address .flex {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .location__address h2 {
+    white-space: pre-line;
+  }
+  .location__address p {
+    max-width: 40rem;
+  }
+  .location__address-right {
+    align-self: flex-end;
+    width: 40rem;
   }
 }
 @media (min-width: 992px) {

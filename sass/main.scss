@@ -61,30 +61,34 @@ main {
 	padding: 1.5em 0;
 	background-color: $black;
 	color: $white;
-	.flex {
+	h4 {
+		margin: 1em 0;
+	}
+	p {
+		margin: 1em 0;
+		font-size: 1.6rem;
+		line-height: 2.6rem;
+	}
+	.social {
 		display: flex;
-		flex-direction: column;
-		h4 {
-			margin: 1em 0;
-		}
-		p {
-			margin: 1em 0;
-			font-size: 1.6rem;
-			line-height: 2.6rem;
-		}
-		.social {
-			display: flex;
-			flex-direction: row;
-			margin: 1em 0;
-			a {
-				margin: 0 0.5em;
-				&:first-child {
-					margin-left: 0;
-				}
+		flex-direction: row;
+		margin: 1em 0;
+		a {
+			margin: 0 0.5em;
+			&:first-child {
+				margin-left: 0;
 			}
 		}
 	}
+	&-location {
+		background-color: $primary;
+		color: $black;
+		img {
+			fill: $black;
+		}
+	}
 }
+
 // LOCATION
 .location {
 	width: 100%;
@@ -107,6 +111,26 @@ main {
 	}
 	&__action {
 		margin-left: 50px;
+	}
+	&__address {
+		padding: 1em 0;
+		background-color: $black;
+		color: $white;
+		h2 {
+			margin: 0.5em 0;
+			white-space: normal;
+		}
+		h4 {
+			margin: 1em 0;
+			color: $primary;
+		}
+		p {
+			margin: 1em 0;
+			max-width: 36rem;
+		}
+		&-street {
+			white-space: pre-line;
+		}
 	}
 }
 @import 'components';
