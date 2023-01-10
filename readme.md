@@ -12,8 +12,6 @@ Your users should be able to:
 - See hover states for all interactive elements throughout the site
 - **Bonus**: Use [Leaflet JS](https://leafletjs.com/) to create an interactive location map with custom location pin
 
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
-
 ## Design preview
 
 ![Design preview](./design/preview.jpg)
