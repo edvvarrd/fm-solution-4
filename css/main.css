@@ -137,7 +137,6 @@ main {
 }
 .location__address p {
   margin: 1em 0;
-  max-width: 36rem;
 }
 .location__address-street {
   white-space: pre-line;
@@ -175,6 +174,7 @@ h2 {
 
 h4 {
   font-size: 3rem;
+  line-height: 2.6rem;
 }
 
 .action {
@@ -304,12 +304,9 @@ h4 {
   .location__address h2 {
     white-space: pre-line;
   }
-  .location__address p {
-    max-width: 40rem;
-  }
   .location__address-right {
     align-self: flex-end;
-    width: 40rem;
+    max-width: 45rem;
   }
 }
 @media (min-width: 992px) {
@@ -383,5 +380,8 @@ h4 {
   }
   .bottom .flex p {
     max-width: 40rem;
+  }
+  .location__address-right {
+    max-width: 50rem;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -70,12 +70,9 @@
 			h2 {
 				white-space: pre-line;
 			}
-			p {
-				max-width: 40rem;
-			}
 			&-right {
 				align-self: flex-end;
-				width: 40rem;
+				max-width: 45rem;
 			}
 		}
 	}

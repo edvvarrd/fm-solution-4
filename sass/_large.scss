@@ -75,4 +75,11 @@
 			}
 		}
 	}
+	.location {
+		&__address {
+			&-right {
+				max-width: 50rem;
+			}
+		}
+	}
 }
