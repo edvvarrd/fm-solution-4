@@ -40,7 +40,7 @@ body {
 }
 
 main {
-  margin: 3em 0;
+  margin: 1em 0;
 }
 
 .grid {
@@ -72,7 +72,7 @@ main {
   background-color: #151515;
   color: #ffffff;
 }
-.bottom h4 {
+.bottom h3 {
   margin: 1em 0;
 }
 .bottom p {
@@ -131,7 +131,7 @@ main {
   margin: 0.5em 0;
   white-space: normal;
 }
-.location__address h4 {
+.location__address h3 {
   margin: 1em 0;
   color: #d5966c;
 }
@@ -154,7 +154,7 @@ main {
 
 h1,
 h2,
-h4 {
+h3 {
   font-family: "Big Shoulders Display", cursive;
   font-weight: 900;
   letter-spacing: 0.2rem;
@@ -172,7 +172,7 @@ h2 {
   line-height: 5rem;
 }
 
-h4 {
+h3 {
   font-size: 3rem;
   line-height: 2.6rem;
 }
