@@ -73,6 +73,7 @@ body {
 		margin: 1em 0;
 		a {
 			margin: 0 0.5em;
+			color: $white;
 			&:first-child {
 				margin-left: 0;
 			}
@@ -81,7 +82,10 @@ body {
 	&-location {
 		background-color: $primary;
 		color: $black;
-		img {
+		a svg {
+			fill: $black;
+		}
+		a svg path {
 			fill: $black;
 		}
 	}

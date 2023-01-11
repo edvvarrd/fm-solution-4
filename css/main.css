@@ -84,6 +84,7 @@ body {
 }
 .bottom .social a {
   margin: 0 0.5em;
+  color: #ffffff;
 }
 .bottom .social a:first-child {
   margin-left: 0;
@@ -92,7 +93,10 @@ body {
   background-color: #d5966c;
   color: #151515;
 }
-.bottom-location img {
+.bottom-location a svg {
+  fill: #151515;
+}
+.bottom-location a svg path {
   fill: #151515;
 }
 
