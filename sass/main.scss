@@ -12,7 +12,7 @@ body {
 	color: $black;
 	background-color: $white;
 }
-// HEADER
+// MAIN
 .top {
 	display: flex;
 	flex-direction: column;
@@ -29,13 +29,11 @@ body {
 		margin: 1em 0;
 	}
 }
-// MAIN
-main {
-	margin: 1em 0;
-}
+// GRID
 .grid {
 	display: grid;
 	gap: 1em;
+	margin: 1em 0;
 	img {
 		width: 100%;
 	}
@@ -61,7 +59,7 @@ main {
 	padding: 1.5em 0;
 	background-color: $black;
 	color: $white;
-	h3 {
+	&__logo {
 		margin: 1em 0;
 	}
 	p {
@@ -93,7 +91,6 @@ main {
 .location {
 	width: 100%;
 	position: relative;
-	margin: 0;
 	#map {
 		height: 55rem;
 		.leaflet-tile-pane {

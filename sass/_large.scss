@@ -39,7 +39,10 @@
 			max-width: 36rem;
 			margin-bottom: 3.5em;
 		}
-		&__black {
+		.container {
+			margin-bottom: 6em;
+		}
+		&::before {
 			margin: 0 1em;
 			width: 50%;
 			height: 100%;
@@ -48,9 +51,7 @@
 			top: 0;
 			background-color: $black;
 			z-index: -10;
-		}
-		.container {
-			margin-bottom: 6em;
+			content: '';
 		}
 	}
 	.grid {
