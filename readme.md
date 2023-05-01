@@ -16,14 +16,6 @@ Your users should be able to:
 
 ![Design preview](./design/preview.jpg)
 
-## My personal goals
-
-This challenge had to be my personal exam before starting JavaScript learning. I felt quite confident with making it, hope I passed. ;)
-
-## Tools I used
-
-I used Flexbox with Grid section on main page. Except of that, I used Leaflet JS to make a map on location page.
-
 ## Links
 
 - [Live page](https://edvvarrd.github.io/fm-solution-4)
